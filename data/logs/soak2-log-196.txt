@@ -1,0 +1,23 @@
+2026-10-20 20:33:06,098 - INFO - [dase] [Q] routing_mode=qlearn, dests=[148], eps=0.3
+2026-10-20 20:33:06,098 - INFO - [dase] Loaded config: role=relay, neighbors=[74, 84, 88, 90, 94, 104]
+2026-10-20 20:33:06,098 - INFO - [dase] DASE v2 node 89 (relay) listening on 4443
+2026-10-20 20:42:20,054 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,054 - INFO - [dase] [Q] dest=148 chose=104 (exploit) eps=0.30 top3=[(104, -0.04), (88, -0.04), (94, -0.06)]
+2026-10-20 20:42:20,054 - INFO - [dase] Hops so far: 2
+2026-10-20 20:42:20,054 - INFO - [dase] Forwarding to node 104 (192.168.200.211)
+2026-10-20 20:42:20,076 - INFO - [dase] [Q-update] dest=148 action=104 r=-0.040 -0.040->-0.040 eps=0.298
+2026-10-20 20:42:20,353 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,353 - INFO - [dase] [Q] dest=148 chose=84 (explore) eps=0.30 top3=[(104, -0.04), (88, -0.04), (94, -0.06)]
+2026-10-20 20:42:20,353 - INFO - [dase] Hops so far: 2
+2026-10-20 20:42:20,353 - INFO - [dase] Forwarding to node 84 (192.168.200.191)
+2026-10-20 20:42:20,365 - INFO - [dase] [Q-update] dest=148 action=84 r=-0.060 -0.060->-0.060 eps=0.297
+2026-10-20 20:42:20,478 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,478 - INFO - [dase] [Q] dest=148 chose=94 (explore) eps=0.30 top3=[(104, -0.04), (88, -0.04), (94, -0.06)]
+2026-10-20 20:42:20,478 - INFO - [dase] Hops so far: 2
+2026-10-20 20:42:20,478 - INFO - [dase] Forwarding to node 94 (192.168.200.201)
+2026-10-20 20:42:20,498 - INFO - [dase] [Q-update] dest=148 action=94 r=-0.060 -0.060->-0.060 eps=0.296
+2026-10-20 20:42:20,579 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,579 - INFO - [dase] [Q] dest=148 chose=88 (exploit) eps=0.29 top3=[(104, -0.04), (88, -0.04), (94, -0.06)]
+2026-10-20 20:42:20,579 - INFO - [dase] Hops so far: 2
+2026-10-20 20:42:20,579 - INFO - [dase] Forwarding to node 88 (192.168.200.195)
+2026-10-20 20:42:20,582 - INFO - [dase] [Q-update] dest=148 action=88 r=-0.040 -0.040->-0.040 eps=0.294

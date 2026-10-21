@@ -1,0 +1,15 @@
+{
+  "node_id": 94,
+  "routing_mode": "qlearn",
+  "epsilon": 0.3,
+  "table": {
+    "dest_148": {
+      "neighbor_95": -0.07,
+      "neighbor_93": -0.05,
+      "neighbor_99": -0.05,
+      "neighbor_89": -0.05,
+      "neighbor_109": -0.05,
+      "neighbor_79": -0.06
+    }
+  }
+}

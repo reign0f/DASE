@@ -1,0 +1,505 @@
+2026-10-20 20:32:25,728 - INFO - [dase] [Q] routing_mode=qlearn, dests=[148], eps=0.3
+2026-10-20 20:32:25,728 - INFO - [dase] Loaded config: role=relay, neighbors=[59, 69, 73, 75, 79, 89]
+2026-10-20 20:32:25,728 - INFO - [dase] DASE v2 node 74 (relay) listening on 4443
+2026-10-20 20:42:20,049 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,049 - INFO - [dase] [Q] dest=148 chose=89 (explore) eps=0.30 top3=[(59, -0.04), (89, -0.05), (73, -0.05)]
+2026-10-20 20:42:20,049 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,050 - INFO - [dase] Forwarding to node 89 (192.168.200.196)
+2026-10-20 20:42:20,077 - INFO - [dase] [Q-update] dest=148 action=89 r=-0.050 -0.050->-0.050 eps=0.298
+2026-10-20 20:42:20,078 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,078 - INFO - [dase] [Q] dest=148 chose=69 (explore) eps=0.30 top3=[(59, -0.04), (89, -0.05), (73, -0.05)]
+2026-10-20 20:42:20,078 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,078 - INFO - [dase] Forwarding to node 69 (192.168.200.176)
+2026-10-20 20:42:20,107 - INFO - [dase] [Q-update] dest=148 action=69 r=-0.060 -0.060->-0.060 eps=0.297
+2026-10-20 20:42:20,108 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,108 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.30 top3=[(59, -0.04), (89, -0.05), (73, -0.05)]
+2026-10-20 20:42:20,109 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,109 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,140 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.060 -0.040->-0.042 eps=0.296
+2026-10-20 20:42:20,142 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,142 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.29 top3=[(59, -0.042), (89, -0.05), (73, -0.05)]
+2026-10-20 20:42:20,142 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,142 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,149 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.042->-0.042 eps=0.294
+2026-10-20 20:42:20,151 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,151 - INFO - [dase] [Q] dest=148 chose=79 (explore) eps=0.29 top3=[(59, -0.042), (89, -0.05), (73, -0.05)]
+2026-10-20 20:42:20,151 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,151 - INFO - [dase] Forwarding to node 79 (192.168.200.186)
+2026-10-20 20:42:20,176 - INFO - [dase] [Q-update] dest=148 action=79 r=-0.060 -0.060->-0.060 eps=0.293
+2026-10-20 20:42:20,177 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,178 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.29 top3=[(59, -0.042), (89, -0.05), (73, -0.05)]
+2026-10-20 20:42:20,178 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,178 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,187 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.060 -0.042->-0.044 eps=0.291
+2026-10-20 20:42:20,189 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,189 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.29 top3=[(59, -0.044), (89, -0.05), (73, -0.05)]
+2026-10-20 20:42:20,189 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,189 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,192 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.044->-0.043 eps=0.290
+2026-10-20 20:42:20,194 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,194 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.29 top3=[(59, -0.043), (89, -0.05), (73, -0.05)]
+2026-10-20 20:42:20,194 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,194 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,197 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.043->-0.043 eps=0.288
+2026-10-20 20:42:20,199 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,199 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.29 top3=[(59, -0.043), (89, -0.05), (73, -0.05)]
+2026-10-20 20:42:20,199 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,199 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,203 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.043->-0.043 eps=0.287
+2026-10-20 20:42:20,204 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,204 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.29 top3=[(59, -0.043), (89, -0.05), (73, -0.05)]
+2026-10-20 20:42:20,204 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,204 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,209 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.060 -0.043->-0.044 eps=0.285
+2026-10-20 20:42:20,210 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,210 - INFO - [dase] [Q] dest=148 chose=73 (explore) eps=0.28 top3=[(59, -0.044), (89, -0.05), (73, -0.05)]
+2026-10-20 20:42:20,210 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,210 - INFO - [dase] Forwarding to node 73 (192.168.200.180)
+2026-10-20 20:42:20,223 - INFO - [dase] [Q-update] dest=148 action=73 r=-0.050 -0.050->-0.050 eps=0.284
+2026-10-20 20:42:20,225 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,225 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.28 top3=[(59, -0.044), (89, -0.05), (73, -0.05)]
+2026-10-20 20:42:20,225 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,225 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,228 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.044->-0.044 eps=0.282
+2026-10-20 20:42:20,230 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,230 - INFO - [dase] [Q] dest=148 chose=75 (explore) eps=0.28 top3=[(59, -0.044), (89, -0.05), (73, -0.05)]
+2026-10-20 20:42:20,230 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,230 - INFO - [dase] Forwarding to node 75 (192.168.200.182)
+2026-10-20 20:42:20,261 - INFO - [dase] [Q-update] dest=148 action=75 r=-0.060 -0.060->-0.060 eps=0.281
+2026-10-20 20:42:20,262 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,262 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.28 top3=[(59, -0.044), (89, -0.05), (73, -0.05)]
+2026-10-20 20:42:20,262 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,262 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,266 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.044->-0.044 eps=0.280
+2026-10-20 20:42:20,267 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,267 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.28 top3=[(59, -0.044), (89, -0.05), (73, -0.05)]
+2026-10-20 20:42:20,267 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,267 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,272 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.060 -0.044->-0.045 eps=0.278
+2026-10-20 20:42:20,273 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,273 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.28 top3=[(59, -0.045), (89, -0.05), (73, -0.05)]
+2026-10-20 20:42:20,273 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,273 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,276 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.045->-0.045 eps=0.277
+2026-10-20 20:42:20,278 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,278 - INFO - [dase] [Q] dest=148 chose=79 (explore) eps=0.28 top3=[(59, -0.045), (89, -0.05), (73, -0.05)]
+2026-10-20 20:42:20,278 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,278 - INFO - [dase] Forwarding to node 79 (192.168.200.186)
+2026-10-20 20:42:20,282 - INFO - [dase] [Q-update] dest=148 action=79 r=-0.060 -0.060->-0.060 eps=0.275
+2026-10-20 20:42:20,284 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,284 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.27 top3=[(59, -0.045), (89, -0.05), (73, -0.05)]
+2026-10-20 20:42:20,284 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,284 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,287 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.045->-0.044 eps=0.274
+2026-10-20 20:42:20,289 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,289 - INFO - [dase] [Q] dest=148 chose=79 (explore) eps=0.27 top3=[(59, -0.044), (89, -0.05), (73, -0.05)]
+2026-10-20 20:42:20,289 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,289 - INFO - [dase] Forwarding to node 79 (192.168.200.186)
+2026-10-20 20:42:20,293 - INFO - [dase] [Q-update] dest=148 action=79 r=-0.060 -0.060->-0.060 eps=0.273
+2026-10-20 20:42:20,295 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,295 - INFO - [dase] [Q] dest=148 chose=59 (explore) eps=0.27 top3=[(59, -0.044), (89, -0.05), (73, -0.05)]
+2026-10-20 20:42:20,295 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,295 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,298 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.044->-0.044 eps=0.271
+2026-10-20 20:42:20,300 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,300 - INFO - [dase] [Q] dest=148 chose=59 (explore) eps=0.27 top3=[(59, -0.044), (89, -0.05), (73, -0.05)]
+2026-10-20 20:42:20,300 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,300 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,303 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.044->-0.043 eps=0.270
+2026-10-20 20:42:20,305 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,305 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.27 top3=[(59, -0.043), (89, -0.05), (73, -0.05)]
+2026-10-20 20:42:20,305 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,305 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,311 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.060 -0.043->-0.045 eps=0.269
+2026-10-20 20:42:20,312 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,313 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.27 top3=[(59, -0.045), (89, -0.05), (73, -0.05)]
+2026-10-20 20:42:20,313 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,313 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,316 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.045->-0.045 eps=0.267
+2026-10-20 20:42:20,317 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,318 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.27 top3=[(59, -0.045), (89, -0.05), (73, -0.05)]
+2026-10-20 20:42:20,318 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,318 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,321 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.045->-0.044 eps=0.266
+2026-10-20 20:42:20,323 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,323 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.26 top3=[(59, -0.044), (89, -0.05), (73, -0.05)]
+2026-10-20 20:42:20,323 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,323 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,328 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.060 -0.044->-0.046 eps=0.265
+2026-10-20 20:42:20,329 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,330 - INFO - [dase] [Q] dest=148 chose=69 (explore) eps=0.26 top3=[(59, -0.046), (89, -0.05), (73, -0.05)]
+2026-10-20 20:42:20,330 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,330 - INFO - [dase] Forwarding to node 69 (192.168.200.176)
+2026-10-20 20:42:20,334 - INFO - [dase] [Q-update] dest=148 action=69 r=-0.060 -0.060->-0.060 eps=0.263
+2026-10-20 20:42:20,335 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,335 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.26 top3=[(59, -0.046), (89, -0.05), (73, -0.05)]
+2026-10-20 20:42:20,336 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,336 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,343 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.060 -0.046->-0.047 eps=0.262
+2026-10-20 20:42:20,344 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,344 - INFO - [dase] [Q] dest=148 chose=75 (explore) eps=0.26 top3=[(59, -0.047), (89, -0.05), (73, -0.05)]
+2026-10-20 20:42:20,344 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,344 - INFO - [dase] Forwarding to node 75 (192.168.200.182)
+2026-10-20 20:42:20,351 - INFO - [dase] [Q-update] dest=148 action=75 r=-0.060 -0.060->-0.060 eps=0.261
+2026-10-20 20:42:20,352 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,352 - INFO - [dase] [Q] dest=148 chose=89 (explore) eps=0.26 top3=[(59, -0.047), (89, -0.05), (73, -0.05)]
+2026-10-20 20:42:20,352 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,352 - INFO - [dase] Forwarding to node 89 (192.168.200.196)
+2026-10-20 20:42:20,366 - INFO - [dase] [Q-update] dest=148 action=89 r=-0.070 -0.050->-0.052 eps=0.259
+2026-10-20 20:42:20,367 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,367 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.26 top3=[(59, -0.047), (73, -0.05), (89, -0.052)]
+2026-10-20 20:42:20,367 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,367 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,372 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.060 -0.047->-0.048 eps=0.258
+2026-10-20 20:42:20,373 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,373 - INFO - [dase] [Q] dest=148 chose=75 (explore) eps=0.26 top3=[(59, -0.048), (73, -0.05), (89, -0.052)]
+2026-10-20 20:42:20,373 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,373 - INFO - [dase] Forwarding to node 75 (192.168.200.182)
+2026-10-20 20:42:20,382 - INFO - [dase] [Q-update] dest=148 action=75 r=-0.060 -0.060->-0.060 eps=0.257
+2026-10-20 20:42:20,383 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,383 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.26 top3=[(59, -0.048), (73, -0.05), (89, -0.052)]
+2026-10-20 20:42:20,383 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,383 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,387 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.048->-0.048 eps=0.256
+2026-10-20 20:42:20,388 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,388 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.25 top3=[(59, -0.048), (73, -0.05), (89, -0.052)]
+2026-10-20 20:42:20,388 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,388 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,391 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.048->-0.047 eps=0.254
+2026-10-20 20:42:20,393 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,393 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.25 top3=[(59, -0.047), (73, -0.05), (89, -0.052)]
+2026-10-20 20:42:20,393 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,393 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,397 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.060 -0.047->-0.048 eps=0.253
+2026-10-20 20:42:20,399 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,399 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.25 top3=[(59, -0.048), (73, -0.05), (89, -0.052)]
+2026-10-20 20:42:20,399 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,399 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,402 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.048->-0.047 eps=0.252
+2026-10-20 20:42:20,403 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,404 - INFO - [dase] [Q] dest=148 chose=59 (explore) eps=0.25 top3=[(59, -0.047), (73, -0.05), (89, -0.052)]
+2026-10-20 20:42:20,404 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,404 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,407 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.047->-0.047 eps=0.250
+2026-10-20 20:42:20,408 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,408 - INFO - [dase] [Q] dest=148 chose=69 (explore) eps=0.25 top3=[(59, -0.047), (73, -0.05), (89, -0.052)]
+2026-10-20 20:42:20,408 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,408 - INFO - [dase] Forwarding to node 69 (192.168.200.176)
+2026-10-20 20:42:20,412 - INFO - [dase] [Q-update] dest=148 action=69 r=-0.060 -0.060->-0.060 eps=0.249
+2026-10-20 20:42:20,414 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,414 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.25 top3=[(59, -0.047), (73, -0.05), (89, -0.052)]
+2026-10-20 20:42:20,414 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,414 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,417 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.047->-0.046 eps=0.248
+2026-10-20 20:42:20,419 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,419 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.25 top3=[(59, -0.046), (73, -0.05), (89, -0.052)]
+2026-10-20 20:42:20,419 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,419 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,422 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.046->-0.045 eps=0.247
+2026-10-20 20:42:20,423 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,424 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.25 top3=[(59, -0.045), (73, -0.05), (89, -0.052)]
+2026-10-20 20:42:20,424 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,424 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,427 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.045->-0.045 eps=0.245
+2026-10-20 20:42:20,428 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,429 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.24 top3=[(59, -0.045), (73, -0.05), (89, -0.052)]
+2026-10-20 20:42:20,429 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,429 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,433 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.060 -0.045->-0.046 eps=0.244
+2026-10-20 20:42:20,434 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,434 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.24 top3=[(59, -0.046), (73, -0.05), (89, -0.052)]
+2026-10-20 20:42:20,435 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,435 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,438 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.046->-0.046 eps=0.243
+2026-10-20 20:42:20,439 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,439 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.24 top3=[(59, -0.046), (73, -0.05), (89, -0.052)]
+2026-10-20 20:42:20,439 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,439 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,447 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.060 -0.046->-0.047 eps=0.242
+2026-10-20 20:42:20,448 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,448 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.24 top3=[(59, -0.047), (73, -0.05), (89, -0.052)]
+2026-10-20 20:42:20,448 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,448 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,451 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.047->-0.046 eps=0.241
+2026-10-20 20:42:20,453 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,453 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.24 top3=[(59, -0.046), (73, -0.05), (89, -0.052)]
+2026-10-20 20:42:20,453 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,453 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,457 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.060 -0.046->-0.048 eps=0.239
+2026-10-20 20:42:20,459 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,459 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.24 top3=[(59, -0.048), (73, -0.05), (89, -0.052)]
+2026-10-20 20:42:20,459 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,459 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,463 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.060 -0.048->-0.049 eps=0.238
+2026-10-20 20:42:20,465 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,465 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.24 top3=[(59, -0.049), (73, -0.05), (89, -0.052)]
+2026-10-20 20:42:20,465 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,465 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,469 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.060 -0.049->-0.050 eps=0.237
+2026-10-20 20:42:20,470 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,471 - INFO - [dase] [Q] dest=148 chose=73 (exploit) eps=0.24 top3=[(73, -0.05), (59, -0.05), (89, -0.052)]
+2026-10-20 20:42:20,471 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,471 - INFO - [dase] Forwarding to node 73 (192.168.200.180)
+2026-10-20 20:42:20,475 - INFO - [dase] [Q-update] dest=148 action=73 r=-0.060 -0.050->-0.051 eps=0.236
+2026-10-20 20:42:20,477 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,477 - INFO - [dase] [Q] dest=148 chose=89 (explore) eps=0.23 top3=[(59, -0.05), (73, -0.051), (89, -0.052)]
+2026-10-20 20:42:20,477 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,477 - INFO - [dase] Forwarding to node 89 (192.168.200.196)
+2026-10-20 20:42:20,498 - INFO - [dase] [Q-update] dest=148 action=89 r=-0.070 -0.052->-0.054 eps=0.235
+2026-10-20 20:42:20,500 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,500 - INFO - [dase] [Q] dest=148 chose=73 (explore) eps=0.23 top3=[(59, -0.05), (73, -0.051), (89, -0.054)]
+2026-10-20 20:42:20,500 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,500 - INFO - [dase] Forwarding to node 73 (192.168.200.180)
+2026-10-20 20:42:20,505 - INFO - [dase] [Q-update] dest=148 action=73 r=-0.050 -0.051->-0.051 eps=0.233
+2026-10-20 20:42:20,506 - INFO - [dase] [Q-flush] table persisted
+2026-10-20 20:42:20,507 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,507 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.23 top3=[(59, -0.05), (73, -0.051), (89, -0.054)]
+2026-10-20 20:42:20,507 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,507 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,511 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.060 -0.050->-0.051 eps=0.232
+2026-10-20 20:42:20,513 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,513 - INFO - [dase] [Q] dest=148 chose=73 (exploit) eps=0.23 top3=[(73, -0.051), (59, -0.051), (89, -0.054)]
+2026-10-20 20:42:20,513 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,513 - INFO - [dase] Forwarding to node 73 (192.168.200.180)
+2026-10-20 20:42:20,518 - INFO - [dase] [Q-update] dest=148 action=73 r=-0.050 -0.051->-0.051 eps=0.231
+2026-10-20 20:42:20,519 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,519 - INFO - [dase] [Q] dest=148 chose=73 (exploit) eps=0.23 top3=[(73, -0.051), (59, -0.051), (89, -0.054)]
+2026-10-20 20:42:20,519 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,519 - INFO - [dase] Forwarding to node 73 (192.168.200.180)
+2026-10-20 20:42:20,523 - INFO - [dase] [Q-update] dest=148 action=73 r=-0.050 -0.051->-0.051 eps=0.230
+2026-10-20 20:42:20,524 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,524 - INFO - [dase] [Q] dest=148 chose=73 (exploit) eps=0.23 top3=[(73, -0.051), (59, -0.051), (89, -0.054)]
+2026-10-20 20:42:20,524 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,524 - INFO - [dase] Forwarding to node 73 (192.168.200.180)
+2026-10-20 20:42:20,528 - INFO - [dase] [Q-update] dest=148 action=73 r=-0.050 -0.051->-0.051 eps=0.229
+2026-10-20 20:42:20,529 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,529 - INFO - [dase] [Q] dest=148 chose=73 (exploit) eps=0.23 top3=[(73, -0.051), (59, -0.051), (89, -0.054)]
+2026-10-20 20:42:20,530 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,530 - INFO - [dase] Forwarding to node 73 (192.168.200.180)
+2026-10-20 20:42:20,533 - INFO - [dase] [Q-update] dest=148 action=73 r=-0.050 -0.051->-0.051 eps=0.228
+2026-10-20 20:42:20,534 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,535 - INFO - [dase] [Q] dest=148 chose=73 (exploit) eps=0.23 top3=[(73, -0.051), (59, -0.051), (89, -0.054)]
+2026-10-20 20:42:20,535 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,535 - INFO - [dase] Forwarding to node 73 (192.168.200.180)
+2026-10-20 20:42:20,566 - INFO - [dase] [Q-update] dest=148 action=73 r=-0.080 -0.051->-0.054 eps=0.227
+2026-10-20 20:42:20,567 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,567 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.23 top3=[(59, -0.051), (73, -0.054), (89, -0.054)]
+2026-10-20 20:42:20,567 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,567 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,572 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.060 -0.051->-0.052 eps=0.225
+2026-10-20 20:42:20,573 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,574 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.22 top3=[(59, -0.052), (73, -0.054), (89, -0.054)]
+2026-10-20 20:42:20,574 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,574 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,577 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.052->-0.051 eps=0.224
+2026-10-20 20:42:20,578 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,578 - INFO - [dase] [Q] dest=148 chose=89 (explore) eps=0.22 top3=[(59, -0.051), (73, -0.054), (89, -0.054)]
+2026-10-20 20:42:20,578 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,578 - INFO - [dase] Forwarding to node 89 (192.168.200.196)
+2026-10-20 20:42:20,582 - INFO - [dase] [Q-update] dest=148 action=89 r=-0.050 -0.054->-0.053 eps=0.223
+2026-10-20 20:42:20,584 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,584 - INFO - [dase] [Q] dest=148 chose=73 (explore) eps=0.22 top3=[(59, -0.051), (89, -0.053), (73, -0.054)]
+2026-10-20 20:42:20,584 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,584 - INFO - [dase] Forwarding to node 73 (192.168.200.180)
+2026-10-20 20:42:20,589 - INFO - [dase] [Q-update] dest=148 action=73 r=-0.050 -0.054->-0.053 eps=0.222
+2026-10-20 20:42:20,591 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,591 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.22 top3=[(59, -0.051), (73, -0.053), (89, -0.053)]
+2026-10-20 20:42:20,591 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,591 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,597 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.060 -0.051->-0.052 eps=0.221
+2026-10-20 20:42:20,598 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,598 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.22 top3=[(59, -0.052), (73, -0.053), (89, -0.053)]
+2026-10-20 20:42:20,599 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,599 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,602 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.052->-0.051 eps=0.220
+2026-10-20 20:42:20,603 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,603 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.22 top3=[(59, -0.051), (73, -0.053), (89, -0.053)]
+2026-10-20 20:42:20,603 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,604 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,607 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.051->-0.049 eps=0.219
+2026-10-20 20:42:20,608 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,609 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.22 top3=[(59, -0.049), (73, -0.053), (89, -0.053)]
+2026-10-20 20:42:20,609 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,609 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,611 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.049->-0.049 eps=0.218
+2026-10-20 20:42:20,613 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,613 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.22 top3=[(59, -0.049), (73, -0.053), (89, -0.053)]
+2026-10-20 20:42:20,613 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,613 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,616 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.049->-0.048 eps=0.217
+2026-10-20 20:42:20,617 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,618 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.22 top3=[(59, -0.048), (73, -0.053), (89, -0.053)]
+2026-10-20 20:42:20,618 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,618 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,622 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.060 -0.048->-0.049 eps=0.215
+2026-10-20 20:42:20,623 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,623 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.21 top3=[(59, -0.049), (73, -0.053), (89, -0.053)]
+2026-10-20 20:42:20,623 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,623 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,631 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.060 -0.049->-0.050 eps=0.214
+2026-10-20 20:42:20,632 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,633 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.21 top3=[(59, -0.05), (73, -0.053), (89, -0.053)]
+2026-10-20 20:42:20,633 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,633 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,636 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.050->-0.049 eps=0.213
+2026-10-20 20:42:20,637 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,637 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.21 top3=[(59, -0.049), (73, -0.053), (89, -0.053)]
+2026-10-20 20:42:20,637 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,637 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,640 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.049->-0.048 eps=0.212
+2026-10-20 20:42:20,642 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,642 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.21 top3=[(59, -0.048), (73, -0.053), (89, -0.053)]
+2026-10-20 20:42:20,642 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,642 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,646 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.060 -0.048->-0.049 eps=0.211
+2026-10-20 20:42:20,648 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,648 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.21 top3=[(59, -0.049), (73, -0.053), (89, -0.053)]
+2026-10-20 20:42:20,648 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,648 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,651 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.049->-0.048 eps=0.210
+2026-10-20 20:42:20,652 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,653 - INFO - [dase] [Q] dest=148 chose=59 (explore) eps=0.21 top3=[(59, -0.048), (73, -0.053), (89, -0.053)]
+2026-10-20 20:42:20,653 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,653 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,657 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.060 -0.048->-0.050 eps=0.209
+2026-10-20 20:42:20,659 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,659 - INFO - [dase] [Q] dest=148 chose=73 (explore) eps=0.21 top3=[(59, -0.05), (73, -0.053), (89, -0.053)]
+2026-10-20 20:42:20,659 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,659 - INFO - [dase] Forwarding to node 73 (192.168.200.180)
+2026-10-20 20:42:20,662 - INFO - [dase] [Q-update] dest=148 action=73 r=-0.050 -0.053->-0.053 eps=0.208
+2026-10-20 20:42:20,664 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,664 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.21 top3=[(59, -0.05), (73, -0.053), (89, -0.053)]
+2026-10-20 20:42:20,664 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,664 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,667 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.050->-0.049 eps=0.207
+2026-10-20 20:42:20,669 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,669 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.21 top3=[(59, -0.049), (73, -0.053), (89, -0.053)]
+2026-10-20 20:42:20,669 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,669 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,673 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.060 -0.049->-0.050 eps=0.206
+2026-10-20 20:42:20,675 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,675 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.20 top3=[(59, -0.05), (73, -0.053), (89, -0.053)]
+2026-10-20 20:42:20,675 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,675 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,679 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.060 -0.050->-0.051 eps=0.205
+2026-10-20 20:42:20,681 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,681 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.20 top3=[(59, -0.051), (73, -0.053), (89, -0.053)]
+2026-10-20 20:42:20,681 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,681 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,684 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.051->-0.050 eps=0.204
+2026-10-20 20:42:20,686 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,686 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.20 top3=[(59, -0.05), (73, -0.053), (89, -0.053)]
+2026-10-20 20:42:20,686 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,686 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,689 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.050->-0.049 eps=0.203
+2026-10-20 20:42:20,690 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,691 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.20 top3=[(59, -0.049), (73, -0.053), (89, -0.053)]
+2026-10-20 20:42:20,691 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,691 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,694 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.049->-0.048 eps=0.202
+2026-10-20 20:42:20,695 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,695 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.20 top3=[(59, -0.048), (73, -0.053), (89, -0.053)]
+2026-10-20 20:42:20,695 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,696 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,700 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.060 -0.048->-0.049 eps=0.201
+2026-10-20 20:42:20,701 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,701 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.20 top3=[(59, -0.049), (73, -0.053), (89, -0.053)]
+2026-10-20 20:42:20,701 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,701 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,706 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.060 -0.049->-0.050 eps=0.200
+2026-10-20 20:42:20,707 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,707 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.20 top3=[(59, -0.05), (73, -0.053), (89, -0.053)]
+2026-10-20 20:42:20,707 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,707 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,710 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.050->-0.049 eps=0.199
+2026-10-20 20:42:20,712 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,712 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.20 top3=[(59, -0.049), (73, -0.053), (89, -0.053)]
+2026-10-20 20:42:20,712 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,712 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,717 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.060 -0.049->-0.050 eps=0.198
+2026-10-20 20:42:20,718 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,718 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.20 top3=[(59, -0.05), (73, -0.053), (89, -0.053)]
+2026-10-20 20:42:20,718 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,718 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,722 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.050->-0.049 eps=0.197
+2026-10-20 20:42:20,723 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,723 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.20 top3=[(59, -0.049), (73, -0.053), (89, -0.053)]
+2026-10-20 20:42:20,723 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,723 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,727 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.049->-0.048 eps=0.196
+2026-10-20 20:42:20,728 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,728 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.19 top3=[(59, -0.048), (73, -0.053), (89, -0.053)]
+2026-10-20 20:42:20,728 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,728 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,731 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.048->-0.047 eps=0.195
+2026-10-20 20:42:20,733 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,733 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.19 top3=[(59, -0.047), (73, -0.053), (89, -0.053)]
+2026-10-20 20:42:20,733 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,733 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,736 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.047->-0.047 eps=0.194
+2026-10-20 20:42:20,738 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,738 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.19 top3=[(59, -0.047), (73, -0.053), (89, -0.053)]
+2026-10-20 20:42:20,738 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,738 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,741 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.047->-0.046 eps=0.193
+2026-10-20 20:42:20,742 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,742 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.19 top3=[(59, -0.046), (73, -0.053), (89, -0.053)]
+2026-10-20 20:42:20,742 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,742 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,745 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.046->-0.045 eps=0.192
+2026-10-20 20:42:20,747 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,747 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.19 top3=[(59, -0.045), (73, -0.053), (89, -0.053)]
+2026-10-20 20:42:20,747 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,747 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,751 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.060 -0.045->-0.047 eps=0.191
+2026-10-20 20:42:20,753 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,753 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.19 top3=[(59, -0.047), (73, -0.053), (89, -0.053)]
+2026-10-20 20:42:20,753 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,753 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,756 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.047->-0.046 eps=0.190
+2026-10-20 20:42:20,758 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,758 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.19 top3=[(59, -0.046), (73, -0.053), (89, -0.053)]
+2026-10-20 20:42:20,758 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,758 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,760 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.046->-0.046 eps=0.189
+2026-10-20 20:42:20,762 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,762 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.19 top3=[(59, -0.046), (73, -0.053), (89, -0.053)]
+2026-10-20 20:42:20,762 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,762 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,765 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.046->-0.045 eps=0.188
+2026-10-20 20:42:20,766 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,766 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.19 top3=[(59, -0.045), (73, -0.053), (89, -0.053)]
+2026-10-20 20:42:20,766 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,766 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,769 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.045->-0.045 eps=0.187
+2026-10-20 20:42:20,770 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,770 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.19 top3=[(59, -0.045), (73, -0.053), (89, -0.053)]
+2026-10-20 20:42:20,770 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,771 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,773 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.045->-0.044 eps=0.186
+2026-10-20 20:42:20,775 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,775 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.19 top3=[(59, -0.044), (73, -0.053), (89, -0.053)]
+2026-10-20 20:42:20,775 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,775 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,778 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.044->-0.044 eps=0.185
+2026-10-20 20:42:20,779 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,779 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.18 top3=[(59, -0.044), (73, -0.053), (89, -0.053)]
+2026-10-20 20:42:20,779 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,779 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,782 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.044->-0.043 eps=0.184
+2026-10-20 20:42:20,783 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,783 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.18 top3=[(59, -0.043), (73, -0.053), (89, -0.053)]
+2026-10-20 20:42:20,783 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,783 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,786 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.043->-0.043 eps=0.184
+2026-10-20 20:42:20,788 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,788 - INFO - [dase] [Q] dest=148 chose=75 (explore) eps=0.18 top3=[(59, -0.043), (73, -0.053), (89, -0.053)]
+2026-10-20 20:42:20,788 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,788 - INFO - [dase] Forwarding to node 75 (192.168.200.182)
+2026-10-20 20:42:20,791 - INFO - [dase] [Q-update] dest=148 action=75 r=-0.060 -0.060->-0.060 eps=0.183
+2026-10-20 20:42:20,793 - INFO - [dase] Message payload: None
+2026-10-20 20:42:20,793 - INFO - [dase] [Q] dest=148 chose=59 (exploit) eps=0.18 top3=[(59, -0.043), (73, -0.053), (89, -0.053)]
+2026-10-20 20:42:20,793 - INFO - [dase] Hops so far: 1
+2026-10-20 20:42:20,793 - INFO - [dase] Forwarding to node 59 (192.168.200.166)
+2026-10-20 20:42:20,796 - INFO - [dase] [Q-update] dest=148 action=59 r=-0.040 -0.043->-0.043 eps=0.182
+2026-10-20 20:42:20,796 - INFO - [dase] [Q-flush] table persisted

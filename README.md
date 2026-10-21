@@ -35,20 +35,22 @@ net = -STEP_PENALTY * max(total_hops - pos, 0)  # STEP_PENALTY = 0.01
 reward = net
 
 ## Cloning the Repository
-
+```bash
 git clone https://github.com/reign0f/DASE.git
-
+```
 
 ### Setup (recommended: virtualenv)
 
-# Create and activate an environment
-
+```bash
 cd DASE
 python -m venv test-env
-source test-env/bin/activate            # Windows: .\env\Scripts\Activate.ps1
+source test-env/bin/activate
+```
 
 # Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
 ## Running the Notebook
 

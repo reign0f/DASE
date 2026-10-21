@@ -54,5 +54,5 @@ pip install -r requirements.txt
 
 ## Running the Notebook
 
-`dase_analysis.ipynb` reproduces every measurement in this README from the
+`jupyter lab dase_analysis.ipynb` reproduces every measurement in this README from the
 archived artifacts in `data/`. No fleet hardware required.

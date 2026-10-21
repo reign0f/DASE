@@ -34,20 +34,23 @@ python
 net = -STEP_PENALTY * max(total_hops - pos, 0)  # STEP_PENALTY = 0.01
 reward = net
 
+## Cloning the Repository
+
+git clone https://github.com/reign0f/DASE.git
+
+
+### Setup (recommended: virtualenv)
+
+# Create and activate an environment
+
+cd DASE
+python -m venv test-env
+source test-env/bin/activate            # Windows: .\env\Scripts\Activate.ps1
+
+# Install dependencies
+pip install -r requirements.txt
+
 ## Running the Notebook
 
 `dase_analysis.ipynb` reproduces every measurement in this README from the
 archived artifacts in `data/`. No fleet hardware required.
-
-**Prerequisites:** Python 3.8+ (validated on 3.11), Jupyter, matplotlib.
-
-### Setup (recommended: virtualenv)
-
-```bash
-# Create and activate an environment
-python -m venv env
-source env/bin/activate            # Windows: .\env\Scripts\Activate.ps1
-
-# Install dependencies
-pip install -r requirements.txt
-pip install jupyter

@@ -30,7 +30,7 @@ This is an empirical research framework for analyzing adaptive C2 resilience, no
 - **Q-Learning:** ε-greedy over learned Q-values, ε decays 0.30→0.05 per decision (Arm Q)
 
 **Reward Function:**
-```python
+python
 net = -STEP_PENALTY * max(total_hops - pos, 0)  # STEP_PENALTY = 0.01
 reward = net
 

@@ -8,9 +8,9 @@ The motivation: decentralized P2P botnets are hard to take down precisely becaus
 
 DASE tests this with a 149-node k-chorded circulant topology (C₁₄₉(1, 5, 15)) deployed on isolated Proxmox infrastructure, comparing:
 
-    a static-routed swarm (fixed BFS-derived tables),
-    a Q-learning swarm (each node learns forwarding from a delivery-only reward,hop count to destination, with no term for diversity, anonymity, or attribution),
-    a centralized single-relay C2 arm (zero-diversity reference).
+a. a static-routed swarm (fixed BFS-derived tables),
+b. a Q-learning swarm (each node learns forwarding from a delivery-only reward,hop count to destination, with no term for   diversity, anonymity, or attribution),
+c.a centralized single-relay C2 arm (zero-diversity reference).
 
 Route diversity and path-length entropy are treated as proxies measurable from within the swarm, not as anonymity itself. They map to anonymizing capacity only under a defined adversary model (a passive observer with a limited watching budget), following the precedent of LASTor and the anonymity-metrics literature.
 
@@ -69,12 +69,23 @@ This is an empirical research framework for analyzing adaptive C2 resilience. It
 
 The analysis notebook re-derives every reported metric from the raw captured artifacts in data/, Concatenated JSON response streams from each experimental arm, the implant's routing-decision log, and dumped Q-tables. Specifically, it:
 
-    Parses response streams and computes delivery rate, hop-count statistics, and path-length entropy for each arm.
-    Compares hop distributions across arms (the README figure).
-    Extracts the implant's first-hop forwarding decisions from the run log, checking the top-share and entropy criteria against the exploration schedule.
-    Diffs the post-run Q-table against the warm start to confirm learning occurred.
-    Contains a stub cell for the interdiction analysis, to be populated once harness artifacts exist.
-    Runs a reduced simulator (circulant topology, analytic warm start, same hyperparameters and failure semantics as the daemon) including a simulated chokepoint-kill scenario. This simulator is fully self-contained and provides a qualitative cross-check of swarm behavior, but it is a model, not the swarm.
+a. Parses response streams and computes delivery rate, hop-count statistics, and path-length 
+    entropy for each arm.
+
+b. Compares hop distributions across arms (the README figure).
+
+c. Extracts the implant's first-hop forwarding decisions from the run log, checking the top-share 
+    and entropy criteria against the exploration schedule.
+
+d. Diffs the post-run Q-table against the warm start to confirm learning occurred.
+
+e. Contains a stub cell for the interdiction analysis, to be populated once harness artifacts 
+    exist.
+
+f. Runs a reduced simulator (circulant topology, analytic warm start, same hyperparameters and 
+    failure semantics as the daemon) including a simulated chokepoint-kill scenario. This 
+    simulator is fully self-contained and provides a qualitative cross-check of swarm behavior, 
+    but it is a model, not the swarm.
 
 ## Reproducibility boundary
 
